@@ -1,0 +1,25 @@
+/* SignUp page specific styles - responsive */
+.signup-page {
+  width: 100%;
+}
+
+.contact-bg-gry2 {
+  background: #f9f9f9;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .contact-bg-gry2 {
+    padding: 20px;
+  }
+  
+  .contact-img3 {
+    margin-bottom: 30px;
+  }
+  
+  .contact-form .col-lg-6 {
+    margin-bottom: 15px;
+  }
+}
+

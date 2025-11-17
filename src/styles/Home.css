@@ -1,0 +1,84 @@
+/* Home page specific styles - responsive */
+.home-page {
+  width: 100%;
+}
+
+.slider-area {
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .slider-area {
+    min-height: 400px;
+    padding: 50px 0;
+  }
+  
+  .slider-content {
+    text-align: center;
+  }
+  
+  .slider-content h2 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
+  
+  .slider-content h5 {
+    font-size: 1rem;
+  }
+  
+  .slider-img {
+    margin-top: 30px;
+  }
+}
+
+.service-three,
+.about-area,
+.faq-area,
+.work-process,
+.contact-area {
+  padding: 60px 0;
+}
+
+@media (max-width: 768px) {
+  .service-three,
+  .about-area,
+  .faq-area,
+  .work-process,
+  .contact-area {
+    padding: 40px 0;
+  }
+  
+  .services-box {
+    margin-bottom: 30px;
+  }
+  
+  .work-process-box {
+    margin-bottom: 30px;
+  }
+}
+
+.accordion .card {
+  margin-bottom: 15px;
+}
+
+.faq-btn {
+  width: 100%;
+  text-align: left;
+  padding: 15px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.faq-btn.collapsed::after {
+  content: '+';
+  float: right;
+}
+
+.faq-btn:not(.collapsed)::after {
+  content: '-';
+  float: right;
+}
+

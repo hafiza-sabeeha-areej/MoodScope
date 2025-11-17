@@ -1,0 +1,91 @@
+/* Dashboard page specific styles - responsive */
+.dashboard-page {
+  width: 100%;
+}
+
+.choose-area {
+  padding: 40px 0;
+}
+
+.booking-area {
+  padding: 60px 0;
+}
+
+.table-responsive {
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  background-color: #f8f9fa;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+  border-color: #bd2130;
+}
+
+@media (max-width: 768px) {
+  .table {
+    font-size: 0.875rem;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.5rem;
+  }
+  
+  .choose-content {
+    margin-bottom: 20px;
+  }
+  
+  .booking-area {
+    padding: 40px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .table {
+    font-size: 0.75rem;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.25rem;
+  }
+  
+  .btn-danger {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+  }
+}
+

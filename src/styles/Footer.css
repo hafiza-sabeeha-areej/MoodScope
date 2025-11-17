@@ -1,0 +1,17 @@
+/* Footer styles - responsive */
+.footer-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+  .footer-widget {
+    margin-bottom: 30px;
+  }
+  
+  .footer-link ul {
+    padding-left: 0;
+  }
+}
+
