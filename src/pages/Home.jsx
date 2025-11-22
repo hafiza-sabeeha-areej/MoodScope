@@ -27,9 +27,9 @@ const Home = () => {
               <div className="row justify-content-center align-items-center">
                 <div className="col-xl-6 col-lg-6 col-md-12">
                   <div className="slider-content s-slider-content mt-100">
-                    <h5 className="wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
+                    {/* <h5 className="wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                       DDCV<span><img src="/static/img/slider/h-line.png" alt="shape" /></span>
-                    </h5>
+                    </h5> */}
                     <h2 className="wow fadeInUp animated" data-animation="fadeInUp" data-delay=".4s">
                       Depression Detection <span>In Children</span> With Voice
                     </h2>

@@ -92,7 +92,7 @@ const Footer = ({ isAuthenticated = false }) => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
-              Copyright © DDCV2025. All rights reserved.
+              Copyright © MoodScope2025. All rights reserved.
             </div>
           </div>
         </div>

@@ -85,7 +85,7 @@ const Header = ({ isAuthenticated = false, onSignOut }) => {
                 <div className="logo">
                   <Link to="/">
                     <img 
-                      src={isHomePage ? '/static/img/logo/logo.png' : '/static/img/logo/logo2.png'} 
+                      src={isHomePage ? '/static/MOODSCOPE.png' : '/static/MOODSCOPE.png'} 
                       alt="logo" 
                     />
                   </Link>
